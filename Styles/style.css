@@ -22,30 +22,26 @@ header
     height: 230px;
 }
 
-/*.dropbtn
+.dropbtn
 {
-    height: 10em;
-    width: 10em;
-    border: none;
-    cursor: pointer;
-    background-color: #edecec;
+    font-size: 1.2em;
+    font-family: "Overwatch";
+    color: #646464;
 }
 
 .dropdown
 {
     position: relative;
     display: inline-block;
-    height: 10em;
-    
 }
 
 .dropdown-content
 {
     display: none;
     position: absolute;
-    min-width: 160px;
+    width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    background-color: white;
 }
 
 .dropdown-content a
@@ -53,13 +49,13 @@ header
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    color: #646464;
     font-family: sylfaen;
+    color: #646464;
 }
 
 .dropdown-content a:hover
 {
-    background-color: #0032d6;
+    background-color: orange;
 }
 
 .dropdown:hover .dropdown-content
@@ -67,12 +63,7 @@ header
     display: block;
 }
 
-.dropdown:hover .dropbtn
-{
-    background-color: #0032d6;
-}*/
-
-nav
+/*nav
 {
     background-color: #edecec;
     margin-left: 10%;
@@ -104,9 +95,9 @@ nav ul li a
 nav ul li:hover
 {
     background-color: #0032d6;
-}
+}*/
 
-.Active
+#Active
 {
     background-color: orange;
 }
@@ -148,24 +139,10 @@ main h1
 .textRight ul
 {
     font-size: .9em;
+    text-align: justify;
 }
 
-#disc
-{
-    list-style-type: disc;
-}
-
-#circle
-{
-    list-style-type: circle;
-}
-
-#square
-{
-    list-style-type: square;
-}
-
-#arrow
+.arrow
 {
     list-style-image: url(..//Images/favicon-16x16_BlueArrow.png);
 }
@@ -177,6 +154,7 @@ main h1
     column-count: 2;
     column-gap: 5%;
     column-rule: 1px solid orange;
+    text-align: center;
 }
 
 footer
