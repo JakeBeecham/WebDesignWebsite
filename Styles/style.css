@@ -22,11 +22,20 @@ header
     height: 230px;
 }
 
+header img
+{
+    align-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 2em;
+}
+
 .dropbtn
 {
     font-size: 1.2em;
     font-family: "Overwatch";
     color: #646464;
+    background-color: #edecec;
 }
 
 .dropdown
@@ -63,40 +72,6 @@ header
     display: block;
 }
 
-/*nav
-{
-    background-color: #edecec;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 10px;
-}
-
-nav ul
-{
-    font-size: 1.2em;
-    padding: .8em;
-}
-
-nav ul li
-{
-    list-style-type: none;
-    display: inline;
-    padding: 10px;
-    margin: 50px;
-    border-radius: 5px;
-}
-
-nav ul li a
-{
-    color: #646464;
-    text-decoration: none;
-}
-
-nav ul li:hover
-{
-    background-color: #0032d6;
-}*/
-
 #Active
 {
     background-color: orange;
@@ -125,6 +100,11 @@ main h1
     margin-bottom: 5em;
 }
 
+.floatRight
+{
+    float: right;
+}
+
 .textRight
 {
     font-family: sylfaen;
@@ -134,6 +114,16 @@ main h1
     column-gap: 5%;
     column-rule: 1px solid orange;
     margin-bottom: 5em;
+}
+
+.floatLeft
+{
+    float: left;
+}
+
+.center
+{
+    text-align: center;
 }
 
 .textRight ul
@@ -147,6 +137,13 @@ main h1
     list-style-image: url(..//Images/favicon-16x16_BlueArrow.png);
 }
 
+#sectionHeading
+{
+    font-family: sylfaen;
+    font-size: 4em;
+    text-align: center;
+}
+
 .textBoth
 {
     font-family: sylfaen;
@@ -155,6 +152,11 @@ main h1
     column-gap: 5%;
     column-rule: 1px solid orange;
     text-align: center;
+}
+
+.justify
+{
+    text-align: justify;
 }
 
 footer
