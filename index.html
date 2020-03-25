@@ -2,14 +2,14 @@
 <!-- The following lines are comments
 	 Author :				Jake Beecham
 	 Date Created :			04/03/20
-	 Page Description : 	Home Page of Fan-Made Overwatch Website, for college project 
+	 Page Description : 	Home Page of Fan-Made Overwatch Website, for a college project. 
      References : https://playoverwatch.com/en-gb/ , https://www.imdb.com/title/tt4332152/awards -->
 	 
 <html lang="en">  <!-- Declare the primary language -->
 
 <head>
 	<meta charset="utf-8" /> <!-- 8-bit character encoding capable of encoding all possible characters -->
-	<meta name="description" content="Fan-Made Overwatch Website, for college project">
+	<meta name="description" content="Fan-Made Overwatch Website, for a college project.  This is the Home page for the Overwatch website.">
 	<meta name="keywords" content="Overwatch, Overwatch 2, video game, award winning">
 	<meta name="author" content="Jake Beecham">
 	<title>Overwatch</title>
@@ -20,13 +20,15 @@
 <body> <!-- Body Tag, Start of Body section, display on screen  -->
 
     <header>
+        <!-- Anchor name reference for background section -->
+        <a name="background"></a>
         <!-- Inline styling for logo image, along with anchor link to index.html -->
         <a href="index.html"><img src="Images/OverwatchLogo.png" alt="Overwatch Logo"></a>
         <!-- Anchor name reference for top of page -->
         <a name="pagetop"></a>
         <nav>
             <div class="dropdown">
-                <button id="Active" class="dropbtn">Home</button>
+                <button id="Active" class="dropbtn"><a href="index.html"><b>HOME</b></a></button>
                 <div class="dropdown-content">
                     <a href="#background">Background Information</a>
                     <a href="#award">Award Winning Franchise</a>
@@ -34,7 +36,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Overwatch</button>
+                <button class="dropbtn"><a href="overwatch.html"><b>OVERWATCH</b></a></button>
                 <div class="dropdown-content">
                     <a href="#background">Background Information</a>
                     <a href="#award">Award Winning Franchise</a>
@@ -42,7 +44,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">OverwatchTwo</button>
+                <button class="dropbtn"><a href="overwatch2.html"><b>OVERWATCH 2</b></a></button>
                 <div class="dropdown-content">
                     <a href="#background">Background Information</a>
                     <a href="#award">Award Winning Franchise</a>
@@ -50,7 +52,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Contact Form</button>
+                <button class="dropbtn"><a href="#"><b>CONTACT FORM</b></a></button>
                 <div class="dropdown-content">
                     <a href="#background">Background Information</a>
                     <a href="#award">Award Winning Franchise</a>
@@ -63,16 +65,15 @@
     <main> <!-- Main wrapper tag, that goes around main content -->
         <section>
             <h1>Overwatch</h1>
-            <!-- Anchor name reference for background section -->
-            <a name="background"></a>
             <section class="textLeft">
                 <h2>Background</h2>
-                <p>Overwatch.  An international task force that maintained peace for a generation before it was shut down.  Now in the wake of its dismantling, global conflict is rising.  Overwatch may be gone… but the world still needs heroes.  Overwatch is a colorful team-based shooter game starring a diverse cast of powerful heroes.  Travel the world, build a team, and contest objectives in exhilarating 6v6 combat.</p>
+                <p>Overwatch.  An international task force that maintained peace for a generation before it was shut down.  Now in the wake of its dismantling, global conflict is rising.  Overwatch may be gone… but the world still needs heroes.  Overwatch is a colorful team-based shooter video game starring a diverse cast of powerful heroes.  Travel the world, build a team, and contest objectives in exhilarating 6v6 combat.</p>
+                <!-- Anchor name reference for award section -->
+                <a name="award"></a>
                 <img class="floatRight" src="Images/ingame.jpg" alt="In Game Screenshot" height="350px" width="750px">
             </section>
         </section>
-        <!-- Anchor name reference for award section -->
-        <a name="award"></a>
+        
         <section class="textRight">
             <img class="floatLeft" src="Images/OverwatchTextLogo.svg.png" alt="Overwatch Text logo" height="120px" width="800px">
             <h2 class="center">Award Winning Franchise</h2>
@@ -103,8 +104,6 @@
             </ul>
         </section>
         
-        <!-- Anchor name reference for compare section -->
-        <a name="compare"></a>
         <h2 id="sectionHeading">Overwatch V Overwatch 2</h2>
         <section class="textBoth">
             <img src="Images/OverwatchLogo.png" alt="Overwatch logo" height="320px" width="320px">
@@ -115,14 +114,16 @@
     </main>
     
     <footer>  <!-- Footer grouping of content for the bottom of the screen and will need css to place at the bottom  -->
+        <!-- Anchor name reference for compare section -->
+        <a name="compare"></a>
         <a href="#top"><b> Go To Top Of Page </b></a>
         <ul> <!-- unordered list -->
-            <li class="Active"> <a href="index.html"> Home </a></li>
-            <li> <a href="#"> Home </a></li>
-            <li> <a href="#"> Home </a></li>
-            <li> <a href="#"> Home </a></li>
+            <li class="Active"><a href="index.html"><b>HOME</b></a></li>
+            <li><a href="overwatch.html"><img class="navImg" src="Images/OverwatchLogo.png" alt="Overwatch logo" height="20px" width="20px"></a></li>
+            <li><a href="overwatch2.html"><img class="navImg" src="Images/Overwatch2Logo.png" alt="Overwatch 2 logo" height="20px" width="30px"></a></li>
+            <li><a href="#"><b>CONTACT FORM</b></a></li>
         </ul>
-        <p><b>Copyright&copy; 2020 </b></p>
+        <p><b>Copyright&copy; 2020</b></p>
     </footer>
     
 </body>

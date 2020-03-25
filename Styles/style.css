@@ -30,18 +30,29 @@ header img
     padding: 2em;
 }
 
-.dropbtn
-{
-    font-size: 1.2em;
-    font-family: "Overwatch";
-    color: #646464;
-    background-color: #edecec;
-}
-
 .dropdown
 {
     position: relative;
     display: inline-block;
+}
+
+.dropbtn
+{
+    font-size: 1.4em;
+    font-family: sylfaen;
+    color: #646464;
+    background-color: #edecec;
+}
+
+.dropbtn:hover
+{
+    background-color: white;
+}
+
+nav button a
+{
+    text-decoration: none;
+    color: #646464;
 }
 
 .dropdown-content
@@ -73,6 +84,16 @@ header img
 }
 
 #Active
+{
+    background-color: orange;
+}
+
+#Active:hover
+{
+    background-color: white;
+}
+
+.Active
 {
     background-color: orange;
 }
@@ -163,7 +184,7 @@ footer
 {
     clear: both;
     position: relative;
-    height: 100px;
+    height: 110px;
     width: 100%;
     margin-top: 1em;
     margin-bottom: 0;
@@ -181,7 +202,7 @@ footer a
 
 footer ul
 {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 footer ul li
@@ -197,10 +218,15 @@ footer ul li a
 {
     color: #646464;
     text-decoration: none;
-    font-family: "Overwatch";
+    font-family: sylfaen;
+}
+
+.navImg
+{
+    text-align: center;
 }
 
 footer ul li:hover
 {
-    background-color: #0032d6;
+    background-color: white;
 }
