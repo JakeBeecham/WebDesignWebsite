@@ -10,17 +10,15 @@
 <head>
 	<meta charset="utf-8" /> <!-- 8-bit character encoding capable of encoding all possible characters -->
 	<meta name="description" content="Fan-Made Overwatch Website, for a college project.  This is a page dedicated to Overwatch.">
-	<meta name="keywords" content="Overwatch,"> <!-- ************************************************************************************************************************************************** -->
+	<meta name="keywords" content="Overwatch, Heroes, Maps, Events">
 	<meta name="author" content="Jake Beecham">
 	<title>Overwatch</title>
-	<link rel="stylesheet" type="text/css" href="Styles/style.css"/>                                                                       <!-- External Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="Styles/style.css"/>                                                                                                       <!-- External Stylesheet -->
     <link rel="icon" type="image/png" href="Images/favicon-32x32_OverwatchLogo.png" sizes="32x32" />
 </head>
 
 <body> <!-- Body Tag, Start of Body section, display on screen  -->
     <header>
-        <!-- Anchor name reference for background section -->
-        <a name="background"></a>
         <!-- Inline styling for logo image, along with anchor link to index.html -->
         <a href="index.html"><img src="Images/OverwatchLogo.png" alt="Overwatch Logo"></a>
         <!-- Anchor name reference for top of page -->
@@ -29,25 +27,24 @@
             <div class="dropdown">
                 <button class="dropbtn"><a href="index.html"><b>HOME</b></a></button>
                 <div class="dropdown-content">
-                    <a href="#background">Background Information</a>
-                    <a href="#award">Award Winning Franchise</a>
-                    <a href="#compare">Overwatch V Overwatch 2</a>
+                    <a href="index.html">Background Information</a>
+                    <a href="index.html">Award Winning Franchise</a>
+                    <a href="index.html">Overwatch V Overwatch 2</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button id="Active" class="dropbtn"><a href="overwatch.html"><b>OVERWATCH</b></a></button>
                 <div class="dropdown-content">
-                    <a href="#background">Background Information</a>
-                    <a href="#award">Award Winning Franchise</a>
-                    <a href="#compare">Overwatch V Overwatch 2</a>
+                    <a href="#heroes">Heroes of Overwatch</a>
+                    <a href="#maps">Maps of Overwatch</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn"><a href="overwatch2.html"><b>OVERWATCH 2</b></a></button>
                 <div class="dropdown-content">
-                    <a href="#background">Background Information</a>
-                    <a href="#award">Award Winning Franchise</a>
-                    <a href="#compare">Overwatch V Overwatch 2</a>
+                    <a href="overwatch2.html">Background Information</a>
+                    <a href="overwatch2.html">Award Winning Franchise</a>
+                    <a href="overwatch2.html">Overwatch V Overwatch 2</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -66,16 +63,146 @@
             <a href="https://playoverwatch.com/en-gb/"><img class="logo" src="Images/OverwatchLogo.png" alt="Overwatch Logo" height="250px" width="250px"></a>
             <h1 id="pageTitle">Overwatch</h1>
             <h4 class="disclaimer">This is a college project, completed as part of an assignment.  All sources of information are at the bottom of the page.</h4>
+            <h5 class="disclaimerLink">Click on the Overwatch Logo above, to find out more about Overwatch...</h5>                                                          <!-- External Link to External Website -->
         </section>
         
-        <section>
-            
+        <section class="ofOverwatchSections">
+            <!-- Anchor name reference for heroes section -->
+            <a name="heroes"></a>
+            <h2>Heroes of Overwatch</h2>
+            <section>
+                <img class="floatedImgL" src="Images/OverwatchLego.jpg" alt="Overwatch Lego" height="290px" width="700px;">                                                 <!-- Floated Image with Text alongside -->
+                <p class="floatR"><b>THE WORLD NEEDS HEROES&#33;</b>  Overwatch features an international cast of powerful heroes with captivating personalities and backstories.  When you enter a game of Overwatch, you'll need to choose a hero to play.  Every hero is unique and each have a unique set of devastating abilities, from a cannon-toting ape from the moon, a time-traveling freedom fighter, a beat-dropping battlefield DJ, a security guard that rains destruction from above in a jet-powered armor suit or a genetically enhanced hamster piloting a superpowered hamster ball.  Whoever you want to be, there's an Overwatch hero for you.  In Overwatch, there are 3 roles that all the heroes fall into, they include, Tank, Damage and Support.  Find out more about the Heroes of Overwatch <a class="externalLink" href="https://playoverwatch.com/en-gb/heroes">here...</a></p>                                                                                               <!-- External Link to External Website -->
+            </section>
+            <section>
+                <h3 class="clearNewSection">Hero Roles</h3>
+                <section id="roleColumn">
+                    <h3 id="topMargin" class="center">Tank</h3>
+                    <p>There are 8 Tank Heroes currently in-game.  Tank heroes soak damage and shatter fortified positions.  They like closely grouped enemies and narrow chokepoints.  If you’re a tank, you lead the charge.</p>
+                    <h3 class="center">Damage</h3>
+                    <p>There are 17 Damage Heroes currently in-game.  Damage heroes seek out, engage, and obliterate the enemy with wide-ranging tools, abilities and play styles.  Fearsome but fragile, these heroes require backup to survive.</p>
+                    <h3 class="center">Support</h3>
+                    <p>There are 7 Support Heroes currently in-game.  Support heroes empower their allies by healing, shielding, boosting damage, and disabling foes.  As a support, you’re the backbone of your team’s survival.</p>
+                </section>                                                                                                                                                  <!-- Section with 3 columns -->
+            </section>
+            <!-- Table of Data -->                                                                                                                                          <!-- Table of Data Included -->
+            <section>
+                <table>  <!-- Table -->
+                    <caption><b>32 Heroes of Overwatch, in their respective Roles</b></caption>  <!-- Table Heading Caption, above the table -->
+                    <thead>
+                        <tr><th>Tank</th><th>Damage</th><th>Support</th></tr> <!-- Table Column headings -->
+                    </thead>
+                    <tbody>  <!-- Table Data -->
+                        <tr>  <!-- Table Rows, This is Row 1 --> 
+                            <td>D.Va</td><td>Ashe</td><td>Ana</td>  <!-- Table Column Data -->
+                        </tr>
+                        <tr>  <!-- Table Rows, This is Row 2 --> 
+                            <td>Orisa</td><td>Bastion</td><td>Baptiste</td>  <!-- Table Column Data -->
+                        </tr>
+                        <tr>
+                            <td>Reinhardt</td><td>Doomfist</td><td>Brigitte</td>
+                        </tr>
+                        <tr>
+                            <td>Roadhog</td><td>Echo</td><td>Lúcio</td>
+                        </tr>
+                        <tr>
+                            <td>Sigma</td><td>Genji</td><td>Mercy</td>
+                        </tr>
+                        <tr>
+                            <td>Winston</td><td>Hanzo</td><td>Moira</td>
+                        </tr>
+                        <tr>
+                            <td>Wrecking Ball</td><td>Junkrat</td><td>Zenyatta</td>
+                        </tr>
+                        <tr>
+                            <td>Zarya</td><td>McCree</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Mei</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Pharah</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Reaper</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Soldier 76</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Sombra</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Symmetra</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Torbjorn</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Tracer</td><td></td>
+                        </tr>
+                        <tr>
+                            <td></td><td>Widowmaker</td><td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+        
+        <section id="lastSection" class="ofOverwatchSections">
+            <!-- Anchor name reference for maps section -->
+            <a name="maps"></a>
+            <h2>Maps of Overwatch</h2>
+            <section>
+                <img id="floatedImgR" src="Images/ingame.jpg" alt="In Game Screenshot" height="310" width="800">                                                            <!-- Floated Image with Text alongside -->
+                <p id="floatL">In Overwatch, heroes do battle in diverse locations around the world.  From the technological marvels of Busan to the snowy slopes of Nepal, every map has objectives, secrets, and strategies to explore.  There are 4 core game modes or map types in Overwatch.  These are, Control, Assault, Escort and Hybrid.  Each map in Overwatch is made to align with 1 of the 4 map types.  There are currently 21 unique maps in-game, set in diverse locations around the world.  Find out more about the Maps of Overwatch <a class="externalLink" href="https://playoverwatch.com/en-gb/maps">here...</a></p>
+            </section>                                                                                                                                                      <!-- External Link to External Website -->
+            <section>
+                <h3 class="clearNewSection">Map Types</h3>
+                <section id="mapColumn">
+                    <h3 style="margin-top: 1px;" class="center">Control</h3>                                                                                                <!-- Inline Styling -->
+                    <p>Teams fight to hold a single objective in the middle of the map.  The first team to win two rounds wins the map.</p>
+                    <h3 class="center">Assault</h3>
+                    <p>Attackers fight to capture a series of objectives around the map.  Defenders hold them off until time runs out.</p>
+                    <h3 style="margin-top: 98px;" class="center">Escort</h3>                                                                                                <!-- Inline Styling -->
+                    <p>Attackers escort a payload around the map to a delivery point, while defenders strive to stop them.</p>
+                    <h3 class="center">Hybrid</h3>
+                    <p>Hybrid is a combination of map types Assault and Escort.  Attackers capture a payload, then escort it to its destination.  Defenders try to hold them back.</p>
+                </section>                                                                                                                                                  <!-- Section with 4 columns -->
+            </section>
+            <!-- Table of Data -->                                                                                                                                          <!-- Table of Data Included -->
+            <section>
+                <table>  <!-- Table -->
+                    <caption><b>21 Maps of Overwatch, in their respective Map Types</b></caption>  <!-- Table Heading Caption, above the table -->
+                    <thead>
+                        <tr><th>Control</th><th>Assault</th><th>Escort</th><th>Hybrid</th></tr> <!-- Table Column headings -->
+                    </thead>
+                    <tbody>  <!-- Table Data -->
+                        <tr>  <!-- Table Rows, This is Row 1 --> 
+                            <td>Busan, South Korea</td><td>Hanamura, Japan</td><td>Dorado, Mexico</td><td>Blizzard World, USA</td>  <!-- Table Column Data -->
+                        </tr>
+                        <tr>  <!-- Table Rows, This is Row 2 --> 
+                            <td>Ilios, Greece</td><td>Horizon Lunar Colony, The Moon</td><td>Havana, Cuba</td><td>Eichenwalde, Germany</td>  <!-- Table Column Data -->
+                        </tr>
+                        <tr>
+                            <td>Lijiang Tower, China</td><td>Paris, France</td><td>Junkertown, Australia</td><td>Hollywood, USA</td>
+                        </tr>
+                        <tr>
+                            <td>Nepal, Nepal</td><td>Temple of Anubis, Egypt</td><td>Rialto, Italy</td><td>King's Row, United Kingdom</td>
+                        </tr>
+                        <tr>
+                            <td>Oasis, Iraq</td><td>Volskaya Industries, Russia</td><td>Route 66, USA</td><td>Numbani, Nigeria</td>
+                        </tr>
+                        <tr>
+                            <td></td><td></td><td>Watchpoint&#58; Gibraltar, Gibraltar</td><td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
         </section>
     </main>
     
     <footer>  <!-- Footer grouping of content for the bottom of the screen and will need css to place at the bottom  -->
-        <!-- Anchor name reference for compare section -->
-        <a name="compare"></a>
         <a href="#top"><b> Go To Top Of Page </b></a>
         <ul> <!-- unordered list -->
             <li><a href="index.html"><b>HOME</b></a></li>
@@ -83,7 +210,7 @@
             <li><a href="overwatch2.html"><img class="navImg" src="Images/Overwatch2Logo.png" alt="Overwatch 2 logo" height="20px" width="30px"></a></li>
             <li><a href="#"><b>CONTACT FORM</b></a></li>
         </ul>
-        <p><b>Find more information on Overwatch on the <a class="footerLink" href="https://playoverwatch.com/en-gb/">Official Overwatch Website</a>, on the <a class="footerLink" href="https://overwatch2.playoverwatch.com/en-gb/trailer">Official Overwatch 2 Website</a>, and on the <a class="footerLink" href="https://www.imdb.com/title/tt4332152/awards">Overwatch IMDb Awards Page</a>, the sources of the content of this student project website.</b></p>
+        <p><b>Find more information on Overwatch on the <a class="footerLink" href="https://playoverwatch.com/en-gb/">Official Overwatch Website</a>, on the <a class="footerLink" href="https://overwatch2.playoverwatch.com/en-gb/trailer">Official Overwatch 2 Website</a>, and on the <a class="footerLink" href="https://www.imdb.com/title/tt4332152/awards">Overwatch IMDb Awards Page</a>, the sources of the content of this student project website.</b></p>                                                                                                      <!-- External Links to External Websites -->
         <p><b>Copyright&copy; 2020</b></p>
     </footer>
 </body>

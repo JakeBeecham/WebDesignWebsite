@@ -7,6 +7,7 @@
 body
 {
     font-family: "Overwatch";
+    font-size: 100%;
     color: #646464;
     margin: 0;
     padding: 0;
@@ -108,10 +109,17 @@ main
 {
     font-family: sylfaen;
     font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.disclaimerLink
+{
+    font-family: sylfaen;
+    font-size: 1.1em;
     margin-bottom: 5em;
 }
 
-.textLeft
+#textLeft
 {
     font-family: sylfaen;
     font-size: 1.5em;
@@ -120,9 +128,10 @@ main
     column-gap: 5%;
     column-rule: 1px solid orange;
     margin-bottom: 5em;
+    text-align: justify;
 }
 
-.textRight
+#textRight
 {
     font-family: sylfaen;
     font-size: 1.5em;
@@ -138,7 +147,7 @@ main
     text-align: center;
 }
 
-.textRight ul
+#textRight ul
 {
     font-size: .9em;
     text-align: justify;
@@ -156,7 +165,7 @@ main
     text-align: center;
 }
 
-.textBoth
+#textBoth
 {
     font-family: sylfaen;
     font-size: 1.5em;
@@ -164,6 +173,7 @@ main
     column-gap: 5%;
     column-rule: 1px solid orange;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .justify
@@ -238,4 +248,109 @@ footer ul li:hover
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.ofOverwatchSections
+{
+    font-family: sylfaen;
+    font-size: 1.5em;
+    margin-bottom: 5em;
+}
+
+.floatedImgL
+{
+    text-align: left;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.floatR
+{
+    text-align: justify;
+    padding-top: .2em;
+}
+
+.externalLink
+{
+    color: orange;
+}
+
+.clearNewSection
+{
+    clear: both;
+    font-size: 1.1em;
+}
+
+#roleColumn
+{
+    font-family: sylfaen;
+    font-size: .8em;
+    column-count: 3;
+    column-gap: 5%;
+    column-rule: 1px solid orange;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+
+#topMargin
+{
+    margin-top: 1px;
+}
+
+Table
+{
+    width: 100%;
+    border: 1px solid red;
+    border-collapse: collapse;
+    font-size: .9em;
+    table-layout: fixed;
+}
+
+th
+{
+    border: 1px solid #d38407;
+    text-align: center;
+    background-color: #b2b2b2;
+}
+
+tr, td
+{
+    border: 1px solid #d38407;
+    text-align: center;
+}
+
+Table tr:nth-child(even)
+{
+    background-color: #edecec;
+}
+
+#floatedImgR
+{
+    text-align: right;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+#floatL
+{
+    text-align: justify;
+    padding-top: 1.8em;
+}
+
+#lastSection
+{
+    margin-bottom: 50px;
+}
+
+#mapColumn
+{
+    font-family: sylfaen;
+    font-size: .8em;
+    column-count: 4;
+    column-gap: 5%;
+    column-rule: 1px solid orange;
+    text-align: justify;
+    margin-bottom: 2em;
 }
