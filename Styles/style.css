@@ -282,7 +282,7 @@ footer ul li:hover
     font-size: 1.1em;
 }
 
-#roleColumn
+.threeColumnSection
 {
     font-family: sylfaen;
     font-size: .8em;
@@ -325,7 +325,7 @@ Table tr:nth-child(even)
     background-color: #edecec;
 }
 
-#floatedImgR
+.floatedImgR
 {
     text-align: right;
     float: right;
@@ -349,6 +349,29 @@ Table tr:nth-child(even)
     font-family: sylfaen;
     font-size: .8em;
     column-count: 4;
+    column-gap: 5%;
+    column-rule: 1px solid orange;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+
+#storyText
+{
+    text-align: justify;
+    padding-top: .5em;
+}
+
+#features
+{
+    text-align: justify;
+    padding-top: 6em;
+}
+
+#visualColumn
+{
+    font-family: sylfaen;
+    font-size: .8em;
+    column-count: 2;
     column-gap: 5%;
     column-rule: 1px solid orange;
     text-align: justify;
