@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!-- The following lines are comments
+	 Author :				Jake Beecham
+	 Date Created :			20/04/20
+	 Page Description : 	Contact Form Page of Fan-Made Overwatch Website, for a college project. 
+     References : https://playoverwatch.com/en-gb/ , https://www.imdb.com/title/tt4332152/awards, https://overwatchleague.com/en-us, https://overwatch2.playoverwatch.com/en-gb/trailer -->
+     
+<html lang="en">  <!-- Declare the primary language -->
+
+<head>
+	<meta charset="utf-8" /> <!-- 8-bit character encoding capable of encoding all possible characters -->
+	<meta name="description" content="Fan-Made Overwatch Website, for a college project.  This is a Contact Form page with a contact form, a google map and a link to a suitable videos.">
+	<meta name="keywords" content="Overwatch, Contact Form, Feedback, Trailer">
+	<meta name="author" content="Jake Beecham">
+	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="Styles/style.css"/>                                                                                                             <!-- External Stylesheet -->
+    <link rel="icon" type="image/png" href="Images/favicon-32x32_OverwatchLogo.png" sizes="32x32" />
+</head>
+    
+<body> <!-- Body Tag, Start of Body section, display on screen  -->
+    <header>
+        <!-- Inline styling for logo image, along with anchor link to index.html -->
+        <a href="index.html"><img src="Images/OverwatchLogo.png" alt="Overwatch Logo"></a>
+        <!-- Anchor name reference for top of page -->
+        <a name="pagetop"></a>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="index.html"><b>HOME</b></a></button>
+                <div class="dropdown-content">
+                    <a href="index.html">Background Information</a>
+                    <a href="index.html">Award Winning Franchise</a>
+                    <a href="index.html">Overwatch V Overwatch 2</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="overwatch.html"><b>OVERWATCH</b></a></button>
+                <div class="dropdown-content">
+                    <a href="overwatch.html">Heroes of Overwatch</a>
+                    <a href="overwatch.html">Maps of Overwatch</a>
+                    <a href="overwatch.html">Overwatch League</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="overwatch2.html"><b>OVERWATCH 2</b></a></button>
+                <div class="dropdown-content">
+                    <a href="overwatch2.html">Story of Overwatch 2</a>
+                    <a href="overwatch2.html">New Features &amp; Content</a>
+                    <a href="overwatch2.html">Redefining A Sequal</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button id="Active" class="dropbtn"><a href="contactForm.html"><b>CONTACT FORM</b></a></button>
+                <div class="dropdown-content">
+                    <a href="#contactform">Contact Form</a>
+                    <a href="#googlemap">Google Map</a>
+                    <a href="#videos">Videos</a>
+                </div>
+            </div>
+        </nav>
+	</header>
+    
+    <main> <!-- Main wrapper tag, that goes around main content -->
+        <!-- Anchor name reference for contact form section -->
+        <a name="contactform"></a>
+        <!-- Anchor name reference for google map section -->
+        <a name="googlemap"></a>
+        <section>
+            <h1 class="mainHeading">Overwatch</h1>
+            <h4 class="disclaimerLink">This is a college project, completed as part of an assignment.  All sources of information are at the bottom of the page.</h4>
+        </section>
+        
+        <section id="contactForm">
+            <section id="form">
+                <h2 class="center">Contact Form</h2>
+                <h3 class="center">Feel free to give your feedback on this website here.</h3>
+                <h3 class="center">Please enter the following information to leave some feedback :</h3>
+                <form action=" http://year1.ccpdev.me/FormTest.php" method="get">
+                    <label for="first_name">First Name :<span class="required"> * </span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                
+                    <label class="formTitles" for="last_name">Last Name :<span class="required"> * </span></label>
+                    <input class="formContents" type="text" name="last_name" id="last_name" required><br>
+                
+                    <label class="formTitles" for="email">Email :<span class="required"> * </span></label>
+                    <input class="formContents" type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                    
+                    <label style="padding-top: 5px;" for="gender">Gender :</label>
+                    <input class="formContents" type="radio" id="gender" name="gender" value="male"> Male
+                    <input class="formContents" type="radio" id="gender1" name="gender" value="female"> Female
+                    <input class="formContents" type="radio" id="gender2" name="gender" value="other" checked> Other <br>
+                
+                    <label class="formTitles" for="fav_heroes">Favourite Heroes :</label>
+                    <fieldset class="formContents">
+                        <input type="checkbox" id="hero" name="Ana" value="Ana" checked> Ana <br>
+                        <input type="checkbox" id="hero1" name="Ashe" value="Ashe"> Ashe <br>
+                        <input type="checkbox" id="hero2" name="Baptiste" value="Baptiste"> Baptiste <br>
+                        <input type="checkbox" id="hero3" name="Bastion" value="Bastion"> Bastion <br>
+                        <input type="checkbox" id="hero4" name="Brigitte" value="Brigitte"> Brigitte <br>
+                        <input type="checkbox" id="hero5" name="D.Va" value="D.Va"> D.Va <br>
+                        <input type="checkbox" id="hero6" name="Doomfist" value="Doomfist"> Doomfist <br>
+                        <input type="checkbox" id="hero7" name="Echo" value="Echo"> Echo <br>
+                        <input type="checkbox" id="hero8" name="Genji" value="Genji"> Genji <br>
+                        <input type="checkbox" id="hero9" name="Hanzo" value="Hanzo"> Hanzo <br>
+                        <input type="checkbox" id="hero10" name="Junkrat" value="Junkrat"> Junkrat <br>
+                        <input type="checkbox" id="hero11" name="Lúcio" value="Lúcio"> Lúcio<br>
+                        <input type="checkbox" id="hero12" name="McCree" value="McCree"> McCree <br>
+                        <input type="checkbox" id="hero13" name="Mei" value="Mei"> Mei <br>
+                        <input type="checkbox" id="hero14" name="Mercy" value="Mercy"> Mercy <br>
+                        <input type="checkbox" id="hero15" name="Moira" value="Moira"> Moira <br>
+                        <input type="checkbox" id="hero16" name="Orisa" value="Orisa"> Orisa <br>
+                        <input type="checkbox" id="hero17" name="Pharah" value="Pharah"> Pharah <br>
+                        <input type="checkbox" id="hero18" name="Reaper" value="Reaper"> Reaper <br>
+                        <input type="checkbox" id="hero19" name="Reinhardt" value="Reinhardt"> Reinhardt <br>
+                        <input type="checkbox" id="hero20" name="Roadhog" value="Roadhog"> Roadhog <br>
+                        <input type="checkbox" id="hero21" name="Sigma" value="Sigma"> Sigma <br>
+                        <input type="checkbox" id="hero22" name="Soldier76" value="Soldier76"> Soldier&#58; 76 <br>
+                        <input type="checkbox" id="hero23" name="Sombra" value="Sombra"> Sombra <br>
+                        <input type="checkbox" id="hero24" name="Symmetra" value="Symmetra"> Symmetra <br>
+                        <input type="checkbox" id="hero25" name="Torbjorn" value="Torbjorn"> Torbjorn <br>
+                        <input type="checkbox" id="hero26" name="Tracer" value="Tracer"> Tracer <br>
+                        <input type="checkbox" id="hero27" name="Widowmaker" value="Widowmaker"> Widowmaker <br>
+                        <input type="checkbox" id="hero28" name="Winston" value="Winston"> Winston <br>
+                        <input type="checkbox" id="hero29" name="WreckingBall" value="WreckingBall"> Wrecking Ball <br>
+                        <input type="checkbox" id="hero30" name="Zarya" value="Zarya"> Zarya <br>
+                        <input type="checkbox" id="hero31" name="Zenyatta" value="Zenyatta"> Zenyatta <br>
+                    </fieldset>
+                    <br>
+                    
+                    <label class="formTitles" for="message">Overwatch 2  :   </label>
+                    <textarea class="formContents" cols="60" rows="6" id="message" name="message" placeholder="What are you most looking forward to, about Overwatch 2..." data-maxlength="200"></textarea> <br>
+                
+                    <label class="formTitles" for="message">Feedback  :   <span class="required"> * </span></label>
+                    <textarea class="formContents" cols="60" rows="6" id="message1" name="message" placeholder="Your message must be less than 200 characters..." data-maxlength="200"></textarea> <br>
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                </form>
+                <p class="center" style="margin-top: 50px;"><span class="required">*</span><em> Indicates a Required Field</em></p>
+            </section>
+        </section>
+        
+        <section class="formPageTitles">
+            <h2>Overwatch's Developer, Blizzard Entertainment's Headquarters In Irvine, California.</h2>
+            <iframe height="400" width="900" class="orangeBorder" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d736692.6721120451!2d-118.1599493056866!3d33.55947838025495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb7104743d635730!2sBlizzard%20Entertainment!5e0!3m2!1sen!2sie!4v1587409291604!5m2!1sen!2sie" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        
+        <section style="margin-top: 5em;" class="formPageTitles">
+            <!-- Anchor name reference for suitable videos section -->
+            <a name="videos"></a>
+            <h2>Take It Back To Where It All Started&#33;</h2>
+            <h3>Watch Overwatch's Reveal Cinematic Trailer Here&#33;</h3>
+            <iframe height="400" width="900" class="orangeBorder" src="https://www.youtube.com/embed/FqnKB22pOC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3 style="padding-top: 2em;">Watch Overwatch's Reveal Gameplay Trailer Here&#33;</h3>
+            <iframe height="400" width="900" class="orangeBorder" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+    
+    <footer>  <!-- Footer grouping of content for the bottom of the screen and will need css to place at the bottom  -->
+        <a href="#top"><b> Go To Top Of Page </b></a>
+        <ul> <!-- unordered list -->
+            <li><a href="index.html"><b>HOME</b></a></li>
+            <li><a href="overwatch.html"><img class="navImg" src="Images/OverwatchLogo.png" alt="Overwatch logo" height="20px" width="20px"></a></li>
+            <li><a href="overwatch2.html"><img class="navImg" src="Images/Overwatch2Logo.png" alt="Overwatch 2 logo" height="20px" width="30px"></a></li>
+            <li class="Active"><a href="contactForm.html"><b>CONTACT FORM</b></a></li>
+        </ul>
+        <p><b>Find more information on Overwatch on the <a class="footerLink" href="https://playoverwatch.com/en-gb/">Official Overwatch Website</a>, on the <a class="footerLink" href="https://overwatch2.playoverwatch.com/en-gb/trailer">Official Overwatch 2 Website</a>, on the <a class="footerLink" href="https://overwatchleague.com/en-us">Official Overwatch League Website</a>, and on the <a class="footerLink" href="https://www.imdb.com/title/tt4332152/awards">Overwatch IMDb Awards Page</a>, the sources of the content of this student project website.</b></p> <!-- External Links to External Websites -->
+        <p><b>Copyright&copy; 2020</b></p>
+    </footer>
+</body>
+</html>
