@@ -9,8 +9,8 @@ Home Page -->  Background Information, Awards, Overwatch V Overwatch 2.
 
 Overwatch Page -->  Heroes of Overwatch, Maps of Overwatch, Overwatch League.
 
-Overwatch 2 Page -->  Story of Overwatch 2, New Features & Content, Redefining a Sequal.
+Overwatch 2 Page -->  Story of Overwatch 2, New Features & Content, Redefining a Sequel.
 
-To Be Updated...
+Contact Form Page -->  Contact Form, Google Map, Videos.
 
 Created By Jake Beecham.
