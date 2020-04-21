@@ -355,6 +355,18 @@ Table tr:nth-child(even)
     margin-bottom: 2em;
 }
 
+.h3headingtop
+{
+    text-align: center;
+    margin-top: 1px;
+}
+
+.h3headingbottom
+{
+    text-align: center;
+    margin-top: 98px;
+}
+
 #storyText
 {
     text-align: justify;
