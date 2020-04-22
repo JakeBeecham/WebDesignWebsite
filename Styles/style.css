@@ -257,6 +257,24 @@ footer ul li:hover
     margin-bottom: 5em;
 }
 
+#floatedVidR
+{
+    text-align: right;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border: 2px solid orange;
+}
+
+.floatedVidL
+{
+    text-align: left;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    border: 2px solid orange;
+}
+
 .floatedImgL
 {
     text-align: left;
@@ -325,7 +343,7 @@ Table tr:nth-child(even)
     background-color: #edecec;
 }
 
-.floatedImgR
+#floatedImgR
 {
     text-align: right;
     float: right;
@@ -409,7 +427,6 @@ Table tr:nth-child(even)
 {
     font-family: sylfaen;
     text-align: justify;
-    margin: 15px, 200px;
     padding: 20px;
     border: 2px solid orange;
     min-height: 1570px;
