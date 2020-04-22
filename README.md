@@ -18,9 +18,13 @@ Other Documents Include:
 
 --> Project Proposal Submission Document.
 
+--> Project Checklist Document.
+
+--> Project Assignment Declaration Document.
+
 --> Validation Evidence Document.
 
---> Website Project Report Document.
+--> Project Report Document.
 
 
 Created By Jake Beecham.
